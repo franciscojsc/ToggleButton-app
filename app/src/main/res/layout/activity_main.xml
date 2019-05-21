@@ -8,4 +8,28 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado da lâmpada"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton_liga_desliga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#F87171"
+        android:text="ToggleButton"
+        android:textColor="#FFFFFF"
+        android:textOff="Desligada"
+        android:textOn="Ligada" />
+
+    <ImageView
+        android:id="@+id/image_lampada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lamp_apagar"
+        android:layout_marginTop="10dp"/>
 </LinearLayout>
